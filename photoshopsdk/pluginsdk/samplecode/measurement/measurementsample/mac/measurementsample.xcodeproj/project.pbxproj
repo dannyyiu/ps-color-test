@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643D6E0F09F92FFB0066B855 /* DialogUtilitiesMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 643D6E0E09F92FFB0066B855 /* DialogUtilitiesMac.cpp */; };
+		643D6E1A09F9305D0066B855 /* PIUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 643D6E1709F9305C0066B855 /* PIUtilities.cpp */; };
+		647B64931113937D0067F135 /* PIUSuites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E78B5FE30BA215E1003C4D71 /* PIUSuites.cpp */; };
+		64A089981700B0B4000FDE3A /* Appearance.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089451700B0B4000FDE3A /* Appearance.r */; };
+		64A089991700B0B4000FDE3A /* CarbonEvents.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089471700B0B4000FDE3A /* CarbonEvents.r */; };
+		64A0899A1700B0B4000FDE3A /* ControlDefinitions.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0894A1700B0B4000FDE3A /* ControlDefinitions.r */; };
+		64A0899B1700B0B4000FDE3A /* Controls.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0894C1700B0B4000FDE3A /* Controls.r */; };
+		64A0899C1700B0B4000FDE3A /* Dialogs.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0894E1700B0B4000FDE3A /* Dialogs.r */; };
+		64A0899D1700B0B4000FDE3A /* HIButtonViews.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089541700B0B4000FDE3A /* HIButtonViews.r */; };
+		64A0899E1700B0B4000FDE3A /* HIClockView.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089561700B0B4000FDE3A /* HIClockView.r */; };
+		64A0899F1700B0B4000FDE3A /* HIComboBox.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089591700B0B4000FDE3A /* HIComboBox.r */; };
+		64A089A01700B0B4000FDE3A /* HIContainerViews.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0895B1700B0B4000FDE3A /* HIContainerViews.r */; };
+		64A089A11700B0B4000FDE3A /* HIDataBrowser.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0895D1700B0B4000FDE3A /* HIDataBrowser.r */; };
+		64A089A21700B0B4000FDE3A /* HIDisclosureViews.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0895F1700B0B4000FDE3A /* HIDisclosureViews.r */; };
+		64A089A31700B0B4000FDE3A /* HIImageViews.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089621700B0B4000FDE3A /* HIImageViews.r */; };
+		64A089A41700B0B4000FDE3A /* HILittleArrows.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089641700B0B4000FDE3A /* HILittleArrows.r */; };
+		64A089A51700B0B4000FDE3A /* HIPopupButton.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089681700B0B4000FDE3A /* HIPopupButton.r */; };
+		64A089A61700B0B4000FDE3A /* HIProgressViews.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0896A1700B0B4000FDE3A /* HIProgressViews.r */; };
+		64A089A71700B0B4000FDE3A /* HIScrollView.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0896D1700B0B4000FDE3A /* HIScrollView.r */; };
+		64A089A81700B0B4000FDE3A /* HISegmentedView.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089701700B0B4000FDE3A /* HISegmentedView.r */; };
+		64A089A91700B0B4000FDE3A /* HISeparator.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089721700B0B4000FDE3A /* HISeparator.r */; };
+		64A089AA1700B0B4000FDE3A /* HISlider.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089741700B0B4000FDE3A /* HISlider.r */; };
+		64A089AB1700B0B4000FDE3A /* HITabbedView.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089761700B0B4000FDE3A /* HITabbedView.r */; };
+		64A089AC1700B0B4000FDE3A /* HITextViews.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0897A1700B0B4000FDE3A /* HITextViews.r */; };
+		64A089AD1700B0B4000FDE3A /* HIToolbox.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0897E1700B0B4000FDE3A /* HIToolbox.r */; };
+		64A089AE1700B0B4000FDE3A /* MacHelp.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089881700B0B4000FDE3A /* MacHelp.r */; };
+		64A089AF1700B0B4000FDE3A /* MacWindows.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0898B1700B0B4000FDE3A /* MacWindows.r */; };
+		64A089B01700B0B4000FDE3A /* Menus.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A0898D1700B0B4000FDE3A /* Menus.r */; };
+		64A089B11700B0B4000FDE3A /* TranslationExtensions.r in Rez */ = {isa = PBXBuildFile; fileRef = 64A089951700B0B4000FDE3A /* TranslationExtensions.r */; };
+		8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		E78B5FB50BA214E6003C4D71 /* MeasurementSamplePlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E78B5FB30BA214E6003C4D71 /* MeasurementSamplePlugin.cpp */; };
+		E7DA62AD0BA2235000426C63 /* PIUActionControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7DA62A10BA2235000426C63 /* PIUActionControl.cpp */; };
+		E7DA62AF0BA2235000426C63 /* PIUActionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7DA62A40BA2235000426C63 /* PIUActionList.cpp */; };
+		E7DA62B00BA2235000426C63 /* PIUASZString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7DA62A50BA2235000426C63 /* PIUASZString.cpp */; };
+		E7DA62B20BA2235000426C63 /* PIUActionDescriptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7DA62A90BA2235000426C63 /* PIUActionDescriptor.cpp */; };
+		E7DA62B30BA2235000426C63 /* PIUExceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7DA62AC0BA2235000426C63 /* PIUExceptions.cpp */; };
+		E7EF09780BA22A18006A363D /* MeasurementSample.r in Rez */ = {isa = PBXBuildFile; fileRef = E7EF09770BA22A18006A363D /* MeasurementSample.r */; };
+		E7FD488F0BAB181F00B571E9 /* PIUMeasurementUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7FD488E0BAB181F00B571E9 /* PIUMeasurementUtilities.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		6427BDE609F92A0300223601 /* PIUtilities.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = PIUtilities.r; sourceTree = "<group>"; };
+		6427BE8909F92A2C00223601 /* ASPreInclude.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASPreInclude.h; sourceTree = "<group>"; };
+		6427BE8A09F92A2C00223601 /* PIAbout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIAbout.h; sourceTree = "<group>"; };
+		6427BE8B09F92A2C00223601 /* PIAcquire.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIAcquire.h; sourceTree = "<group>"; };
+		6427BE8C09F92A2C00223601 /* PIActions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIActions.h; sourceTree = "<group>"; };
+		6427BE8D09F92A2C00223601 /* PIActionsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIActionsPlugin.h; sourceTree = "<group>"; };
+		6427BE8E09F92A2C00223601 /* PIAliasSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIAliasSuite.h; sourceTree = "<group>"; };
+		6427BE8F09F92A2C00223601 /* PIBufferSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIBufferSuite.h; sourceTree = "<group>"; };
+		6427BE9009F92A2C00223601 /* PIChannelPortOperations.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIChannelPortOperations.h; sourceTree = "<group>"; };
+		6427BE9109F92A2C00223601 /* PIChannelPortsSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIChannelPortsSuite.h; sourceTree = "<group>"; };
+		6427BE9209F92A2C00223601 /* PIColorSpaceSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIColorSpaceSuite.h; sourceTree = "<group>"; };
+		6427BE9309F92A2C00223601 /* PIErrorSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIErrorSuite.h; sourceTree = "<group>"; };
+		6427BE9409F92A2C00223601 /* PIExport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIExport.h; sourceTree = "<group>"; };
+		6427BE9509F92A2C00223601 /* PIFilter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIFilter.h; sourceTree = "<group>"; };
+		6427BE9609F92A2C00223601 /* PIFormat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIFormat.h; sourceTree = "<group>"; };
+		6427BE9709F92A2C00223601 /* PIGeneral.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIGeneral.h; sourceTree = "<group>"; };
+		6427BE9809F92A2C00223601 /* PIGetFileListSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIGetFileListSuite.h; sourceTree = "<group>"; };
+		6427BE9909F92A2C00223601 /* PIGetPathSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIGetPathSuite.h; sourceTree = "<group>"; };
+		6427BE9A09F92A2C00223601 /* PIHandleSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIHandleSuite.h; sourceTree = "<group>"; };
+		6427BE9B09F92A2C00223601 /* PIPicker.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIPicker.h; sourceTree = "<group>"; };
+		6427BE9C09F92A2C00223601 /* PIProgressSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIProgressSuite.h; sourceTree = "<group>"; };
+		6427BE9D09F92A2C00223601 /* PIProperties.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIProperties.h; sourceTree = "<group>"; };
+		6427BE9E09F92A2C00223601 /* PIResDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIResDefines.h; sourceTree = "<group>"; };
+		6427BE9F09F92A2C00223601 /* PISelection.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PISelection.h; sourceTree = "<group>"; };
+		6427BEA009F92A2C00223601 /* PIStringTerminology.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIStringTerminology.h; sourceTree = "<group>"; };
+		6427BEA109F92A2C00223601 /* PITerminology.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PITerminology.h; sourceTree = "<group>"; };
+		6427BEA209F92A2C00223601 /* PITypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PITypes.h; sourceTree = "<group>"; };
+		6427BEA309F92A2C00223601 /* PIUIHooksSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIUIHooksSuite.h; sourceTree = "<group>"; };
+		6427BEA409F92A2C00223601 /* PSErrorDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSErrorDefines.h; sourceTree = "<group>"; };
+		6427BEA609F92A2C00223601 /* SPAccess.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPAccess.h; sourceTree = "<group>"; };
+		6427BEA709F92A2C00223601 /* SPAdapts.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPAdapts.h; sourceTree = "<group>"; };
+		6427BEA809F92A2C00223601 /* SPBasic.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPBasic.h; sourceTree = "<group>"; };
+		6427BEA909F92A2C00223601 /* SPBckDbg.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPBckDbg.h; sourceTree = "<group>"; };
+		6427BEAA09F92A2C00223601 /* SPBlocks.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPBlocks.h; sourceTree = "<group>"; };
+		6427BEAB09F92A2C00223601 /* SPCaches.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPCaches.h; sourceTree = "<group>"; };
+		6427BEAC09F92A2C00223601 /* SPCOM.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPCOM.h; sourceTree = "<group>"; };
+		6427BEAD09F92A2C00223601 /* SPConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPConfig.h; sourceTree = "<group>"; };
+		6427BEAF09F92A2C00223601 /* SPErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPErrorCodes.h; sourceTree = "<group>"; };
+		6427BEB009F92A2C00223601 /* SPErrors.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPErrors.h; sourceTree = "<group>"; };
+		6427BEB109F92A2C00223601 /* SPFiles.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPFiles.h; sourceTree = "<group>"; };
+		6427BEB209F92A2C00223601 /* SPHost.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPHost.h; sourceTree = "<group>"; };
+		6427BEB309F92A2C00223601 /* SPInterf.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPInterf.h; sourceTree = "<group>"; };
+		6427BEB409F92A2C00223601 /* SPMData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPMData.h; sourceTree = "<group>"; };
+		6427BEB509F92A2C00223601 /* SPObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPObject.h; sourceTree = "<group>"; };
+		6427BEB609F92A2C00223601 /* SPPiPL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPPiPL.h; sourceTree = "<group>"; };
+		6427BEB709F92A2C00223601 /* SPPlugs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPPlugs.h; sourceTree = "<group>"; };
+		6427BEB809F92A2C00223601 /* SPProps.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPProps.h; sourceTree = "<group>"; };
+		6427BEB909F92A2C00223601 /* SPRuntme.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPRuntme.h; sourceTree = "<group>"; };
+		6427BEBA09F92A2C00223601 /* SPStrngs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPStrngs.h; sourceTree = "<group>"; };
+		6427BEBB09F92A2C00223601 /* SPSTSPrp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPSTSPrp.h; sourceTree = "<group>"; };
+		6427BEBC09F92A2C00223601 /* SPSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPSuites.h; sourceTree = "<group>"; };
+		6427BEBD09F92A2C00223601 /* SPTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SPTypes.h; sourceTree = "<group>"; };
+		6427BEBF09F92A2C00223601 /* PIGeneral.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = PIGeneral.r; sourceTree = "<group>"; };
+		6427BEC009F92A2C00223601 /* PIMI.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = PIMI.r; sourceTree = "<group>"; };
+		6427BEC109F92A2C00223601 /* PIPL.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = PIPL.r; sourceTree = "<group>"; };
+		643D6E0E09F92FFB0066B855 /* DialogUtilitiesMac.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DialogUtilitiesMac.cpp; sourceTree = "<group>"; };
+		643D6E1109F9301E0066B855 /* DialogUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DialogUtilities.h; sourceTree = "<group>"; };
+		643D6E1709F9305C0066B855 /* PIUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = PIUtilities.cpp; sourceTree = "<group>"; };
+		643D6E1C09F930790066B855 /* PIDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIDefines.h; sourceTree = "<group>"; };
+		643D6E1E09F930790066B855 /* PIUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIUtilities.h; sourceTree = "<group>"; };
+		647B636F11138F4E0067F135 /* PSIntTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSIntTypes.h; sourceTree = "<group>"; };
+		64A089431700B0B4000FDE3A /* AEInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AEInteraction.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/AEInteraction.h; sourceTree = SDKROOT; };
+		64A089441700B0B4000FDE3A /* Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appearance.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Appearance.h; sourceTree = SDKROOT; };
+		64A089451700B0B4000FDE3A /* Appearance.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = Appearance.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Appearance.r; sourceTree = SDKROOT; };
+		64A089461700B0B4000FDE3A /* CarbonEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarbonEvents.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/CarbonEvents.h; sourceTree = SDKROOT; };
+		64A089471700B0B4000FDE3A /* CarbonEvents.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = CarbonEvents.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/CarbonEvents.r; sourceTree = SDKROOT; };
+		64A089481700B0B4000FDE3A /* CarbonEventsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarbonEventsCore.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/CarbonEventsCore.h; sourceTree = SDKROOT; };
+		64A089491700B0B4000FDE3A /* ControlDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlDefinitions.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/ControlDefinitions.h; sourceTree = SDKROOT; };
+		64A0894A1700B0B4000FDE3A /* ControlDefinitions.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = ControlDefinitions.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/ControlDefinitions.r; sourceTree = SDKROOT; };
+		64A0894B1700B0B4000FDE3A /* Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controls.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Controls.h; sourceTree = SDKROOT; };
+		64A0894C1700B0B4000FDE3A /* Controls.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = Controls.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Controls.r; sourceTree = SDKROOT; };
+		64A0894D1700B0B4000FDE3A /* Dialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dialogs.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Dialogs.h; sourceTree = SDKROOT; };
+		64A0894E1700B0B4000FDE3A /* Dialogs.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = Dialogs.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Dialogs.r; sourceTree = SDKROOT; };
+		64A0894F1700B0B4000FDE3A /* Drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Drag.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Drag.h; sourceTree = SDKROOT; };
+		64A089501700B0B4000FDE3A /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Events.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h; sourceTree = SDKROOT; };
+		64A089511700B0B4000FDE3A /* HIAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIAccessibility.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIAccessibility.h; sourceTree = SDKROOT; };
+		64A089521700B0B4000FDE3A /* HIArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIArchive.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIArchive.h; sourceTree = SDKROOT; };
+		64A089531700B0B4000FDE3A /* HIButtonViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIButtonViews.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIButtonViews.h; sourceTree = SDKROOT; };
+		64A089541700B0B4000FDE3A /* HIButtonViews.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIButtonViews.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIButtonViews.r; sourceTree = SDKROOT; };
+		64A089551700B0B4000FDE3A /* HIClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIClockView.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIClockView.h; sourceTree = SDKROOT; };
+		64A089561700B0B4000FDE3A /* HIClockView.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIClockView.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIClockView.r; sourceTree = SDKROOT; };
+		64A089571700B0B4000FDE3A /* HICocoaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HICocoaView.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HICocoaView.h; sourceTree = SDKROOT; };
+		64A089581700B0B4000FDE3A /* HIComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIComboBox.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIComboBox.h; sourceTree = SDKROOT; };
+		64A089591700B0B4000FDE3A /* HIComboBox.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIComboBox.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIComboBox.r; sourceTree = SDKROOT; };
+		64A0895A1700B0B4000FDE3A /* HIContainerViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIContainerViews.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIContainerViews.h; sourceTree = SDKROOT; };
+		64A0895B1700B0B4000FDE3A /* HIContainerViews.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIContainerViews.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIContainerViews.r; sourceTree = SDKROOT; };
+		64A0895C1700B0B4000FDE3A /* HIDataBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIDataBrowser.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIDataBrowser.h; sourceTree = SDKROOT; };
+		64A0895D1700B0B4000FDE3A /* HIDataBrowser.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIDataBrowser.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIDataBrowser.r; sourceTree = SDKROOT; };
+		64A0895E1700B0B4000FDE3A /* HIDisclosureViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIDisclosureViews.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIDisclosureViews.h; sourceTree = SDKROOT; };
+		64A0895F1700B0B4000FDE3A /* HIDisclosureViews.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIDisclosureViews.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIDisclosureViews.r; sourceTree = SDKROOT; };
+		64A089601700B0B4000FDE3A /* HIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIGeometry.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIGeometry.h; sourceTree = SDKROOT; };
+		64A089611700B0B4000FDE3A /* HIImageViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIImageViews.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIImageViews.h; sourceTree = SDKROOT; };
+		64A089621700B0B4000FDE3A /* HIImageViews.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIImageViews.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIImageViews.r; sourceTree = SDKROOT; };
+		64A089631700B0B4000FDE3A /* HILittleArrows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HILittleArrows.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HILittleArrows.h; sourceTree = SDKROOT; };
+		64A089641700B0B4000FDE3A /* HILittleArrows.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HILittleArrows.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HILittleArrows.r; sourceTree = SDKROOT; };
+		64A089651700B0B4000FDE3A /* HIMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIMenuView.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIMenuView.h; sourceTree = SDKROOT; };
+		64A089661700B0B4000FDE3A /* HIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIObject.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIObject.h; sourceTree = SDKROOT; };
+		64A089671700B0B4000FDE3A /* HIPopupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIPopupButton.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIPopupButton.h; sourceTree = SDKROOT; };
+		64A089681700B0B4000FDE3A /* HIPopupButton.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIPopupButton.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIPopupButton.r; sourceTree = SDKROOT; };
+		64A089691700B0B4000FDE3A /* HIProgressViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIProgressViews.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIProgressViews.h; sourceTree = SDKROOT; };
+		64A0896A1700B0B4000FDE3A /* HIProgressViews.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIProgressViews.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIProgressViews.r; sourceTree = SDKROOT; };
+		64A0896B1700B0B4000FDE3A /* HIRelevanceBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIRelevanceBar.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIRelevanceBar.h; sourceTree = SDKROOT; };
+		64A0896C1700B0B4000FDE3A /* HIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIScrollView.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIScrollView.h; sourceTree = SDKROOT; };
+		64A0896D1700B0B4000FDE3A /* HIScrollView.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIScrollView.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIScrollView.r; sourceTree = SDKROOT; };
+		64A0896E1700B0B4000FDE3A /* HISearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HISearchField.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HISearchField.h; sourceTree = SDKROOT; };
+		64A0896F1700B0B4000FDE3A /* HISegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HISegmentedView.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HISegmentedView.h; sourceTree = SDKROOT; };
+		64A089701700B0B4000FDE3A /* HISegmentedView.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HISegmentedView.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HISegmentedView.r; sourceTree = SDKROOT; };
+		64A089711700B0B4000FDE3A /* HISeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HISeparator.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HISeparator.h; sourceTree = SDKROOT; };
+		64A089721700B0B4000FDE3A /* HISeparator.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HISeparator.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HISeparator.r; sourceTree = SDKROOT; };
+		64A089731700B0B4000FDE3A /* HISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HISlider.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HISlider.h; sourceTree = SDKROOT; };
+		64A089741700B0B4000FDE3A /* HISlider.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HISlider.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HISlider.r; sourceTree = SDKROOT; };
+		64A089751700B0B4000FDE3A /* HITabbedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HITabbedView.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HITabbedView.h; sourceTree = SDKROOT; };
+		64A089761700B0B4000FDE3A /* HITabbedView.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HITabbedView.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HITabbedView.r; sourceTree = SDKROOT; };
+		64A089771700B0B4000FDE3A /* HITextLengthFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HITextLengthFilter.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HITextLengthFilter.h; sourceTree = SDKROOT; };
+		64A089781700B0B4000FDE3A /* HITextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HITextUtils.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HITextUtils.h; sourceTree = SDKROOT; };
+		64A089791700B0B4000FDE3A /* HITextViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HITextViews.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HITextViews.h; sourceTree = SDKROOT; };
+		64A0897A1700B0B4000FDE3A /* HITextViews.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HITextViews.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HITextViews.r; sourceTree = SDKROOT; };
+		64A0897B1700B0B4000FDE3A /* HITheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HITheme.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HITheme.h; sourceTree = SDKROOT; };
+		64A0897C1700B0B4000FDE3A /* HIToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIToolbar.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIToolbar.h; sourceTree = SDKROOT; };
+		64A0897D1700B0B4000FDE3A /* HIToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIToolbox.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIToolbox.h; sourceTree = SDKROOT; };
+		64A0897E1700B0B4000FDE3A /* HIToolbox.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = HIToolbox.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIToolbox.r; sourceTree = SDKROOT; };
+		64A0897F1700B0B4000FDE3A /* HIToolboxDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIToolboxDebugging.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIToolboxDebugging.h; sourceTree = SDKROOT; };
+		64A089801700B0B4000FDE3A /* HIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIView.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIView.h; sourceTree = SDKROOT; };
+		64A089811700B0B4000FDE3A /* HIWindowViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HIWindowViews.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIWindowViews.h; sourceTree = SDKROOT; };
+		64A089821700B0B4000FDE3A /* IBCarbonRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBCarbonRuntime.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/IBCarbonRuntime.h; sourceTree = SDKROOT; };
+		64A089831700B0B4000FDE3A /* IMKInputSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMKInputSession.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/IMKInputSession.h; sourceTree = SDKROOT; };
+		64A089841700B0B4000FDE3A /* Keyboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keyboards.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Keyboards.h; sourceTree = SDKROOT; };
+		64A089851700B0B4000FDE3A /* Lists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lists.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Lists.h; sourceTree = SDKROOT; };
+		64A089861700B0B4000FDE3A /* MacApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacApplication.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/MacApplication.h; sourceTree = SDKROOT; };
+		64A089871700B0B4000FDE3A /* MacHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacHelp.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/MacHelp.h; sourceTree = SDKROOT; };
+		64A089881700B0B4000FDE3A /* MacHelp.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = MacHelp.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/MacHelp.r; sourceTree = SDKROOT; };
+		64A089891700B0B4000FDE3A /* MacTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacTextEditor.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/MacTextEditor.h; sourceTree = SDKROOT; };
+		64A0898A1700B0B4000FDE3A /* MacWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacWindows.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/MacWindows.h; sourceTree = SDKROOT; };
+		64A0898B1700B0B4000FDE3A /* MacWindows.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = MacWindows.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/MacWindows.r; sourceTree = SDKROOT; };
+		64A0898C1700B0B4000FDE3A /* Menus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menus.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Menus.h; sourceTree = SDKROOT; };
+		64A0898D1700B0B4000FDE3A /* Menus.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = Menus.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Menus.r; sourceTree = SDKROOT; };
+		64A0898E1700B0B4000FDE3A /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notification.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Notification.h; sourceTree = SDKROOT; };
+		64A0898F1700B0B4000FDE3A /* Scrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scrap.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Scrap.h; sourceTree = SDKROOT; };
+		64A089901700B0B4000FDE3A /* TextEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextEdit.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/TextEdit.h; sourceTree = SDKROOT; };
+		64A089911700B0B4000FDE3A /* TextInputSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextInputSources.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/TextInputSources.h; sourceTree = SDKROOT; };
+		64A089921700B0B4000FDE3A /* TextServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextServices.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/TextServices.h; sourceTree = SDKROOT; };
+		64A089931700B0B4000FDE3A /* Translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Translation.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Translation.h; sourceTree = SDKROOT; };
+		64A089941700B0B4000FDE3A /* TranslationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TranslationExtensions.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/TranslationExtensions.h; sourceTree = SDKROOT; };
+		64A089951700B0B4000FDE3A /* TranslationExtensions.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = TranslationExtensions.r; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/TranslationExtensions.r; sourceTree = SDKROOT; };
+		64A089961700B0B4000FDE3A /* TSMTE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSMTE.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/TSMTE.h; sourceTree = SDKROOT; };
+		64A089971700B0B4000FDE3A /* TypeSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeSelect.h; path = System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/TypeSelect.h; sourceTree = SDKROOT; };
+		64CC2EF4111CE1F000423B46 /* JSScriptingSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = JSScriptingSuite.h; sourceTree = "<group>"; };
+		64CF8E9C0AA3A6F300120C5A /* ASZStringSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASZStringSuite.h; sourceTree = "<group>"; };
+		64CF8E9D0AA3A6F300120C5A /* ASTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASTypes.h; sourceTree = "<group>"; };
+		64CF8E9E0AA3A6F300120C5A /* ASPragma.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASPragma.h; sourceTree = "<group>"; };
+		64CF8E9F0AA3A6F300120C5A /* ASConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASConfig.h; sourceTree = "<group>"; };
+		8D01CCD20486CAD60068D4B7 /* MeasurementSample.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeasurementSample.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29FC5AE0B0ADACC00614548 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78B5E860BA20D0C003C4D71 /* PIMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIMeasurement.h; sourceTree = "<group>"; };
+		E78B5FB30BA214E6003C4D71 /* MeasurementSamplePlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MeasurementSamplePlugin.cpp; path = ../common/MeasurementSamplePlugin.cpp; sourceTree = SOURCE_ROOT; };
+		E78B5FE30BA215E1003C4D71 /* PIUSuites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = PIUSuites.cpp; sourceTree = "<group>"; };
+		E78B5FE50BA215EF003C4D71 /* PIUSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIUSuites.h; sourceTree = "<group>"; };
+		E7DA62A10BA2235000426C63 /* PIUActionControl.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUActionControl.cpp; path = ../../common/PIUActionControl.cpp; sourceTree = SOURCE_ROOT; };
+		E7DA62A30BA2235000426C63 /* PIUActionDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PIUActionDescriptor.h; path = ../../common/PIUActionDescriptor.h; sourceTree = SOURCE_ROOT; };
+		E7DA62A40BA2235000426C63 /* PIUActionList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUActionList.cpp; path = ../../common/PIUActionList.cpp; sourceTree = SOURCE_ROOT; };
+		E7DA62A50BA2235000426C63 /* PIUASZString.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUASZString.cpp; path = ../../common/PIUASZString.cpp; sourceTree = SOURCE_ROOT; };
+		E7DA62A70BA2235000426C63 /* PIUActionList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PIUActionList.h; path = ../../common/PIUActionList.h; sourceTree = SOURCE_ROOT; };
+		E7DA62A80BA2235000426C63 /* PIUASZString.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PIUASZString.h; path = ../../common/PIUASZString.h; sourceTree = SOURCE_ROOT; };
+		E7DA62A90BA2235000426C63 /* PIUActionDescriptor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUActionDescriptor.cpp; path = ../../common/PIUActionDescriptor.cpp; sourceTree = SOURCE_ROOT; };
+		E7DA62AA0BA2235000426C63 /* PIUActionControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PIUActionControl.h; path = ../../common/PIUActionControl.h; sourceTree = SOURCE_ROOT; };
+		E7DA62AB0BA2235000426C63 /* PIUExceptions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PIUExceptions.h; path = ../../common/PIUExceptions.h; sourceTree = SOURCE_ROOT; };
+		E7DA62AC0BA2235000426C63 /* PIUExceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUExceptions.cpp; path = ../../common/PIUExceptions.cpp; sourceTree = SOURCE_ROOT; };
+		E7EF09770BA22A18006A363D /* MeasurementSample.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = MeasurementSample.r; path = ../common/MeasurementSample.r; sourceTree = SOURCE_ROOT; };
+		E7FD488D0BAB181E00B571E9 /* PIUMeasurementUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PIUMeasurementUtilities.h; path = ../../common/PIUMeasurementUtilities.h; sourceTree = SOURCE_ROOT; };
+		E7FD488E0BAB181F00B571E9 /* PIUMeasurementUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PIUMeasurementUtilities.cpp; path = ../../common/PIUMeasurementUtilities.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MeasurementSample */ = {
+			isa = PBXGroup;
+			children = (
+				E7EF09770BA22A18006A363D /* MeasurementSample.r */,
+				E78B5FB30BA214E6003C4D71 /* MeasurementSamplePlugin.cpp */,
+				E78B5DCA0BA2088C003C4D71 /* Measurement common */,
+				6427BDBD09F92A0300223601 /* SDK common */,
+				643D6C0B09F92D870066B855 /* Mac OS common */,
+				6427BE2F09F92A2B00223601 /* Photoshop common */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = MeasurementSample;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* MeasurementSample.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6427BDBD09F92A0300223601 /* SDK common */ = {
+			isa = PBXGroup;
+			children = (
+				6427BDBE09F92A0300223601 /* includes */,
+				6427BDE209F92A0300223601 /* resources */,
+				6427BDE909F92A0300223601 /* sources */,
+			);
+			name = "SDK common";
+			path = ../../../common;
+			sourceTree = SOURCE_ROOT;
+		};
+		6427BDBE09F92A0300223601 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				643D6E1C09F930790066B855 /* PIDefines.h */,
+				E78B5FE50BA215EF003C4D71 /* PIUSuites.h */,
+				643D6E1E09F930790066B855 /* PIUtilities.h */,
+				643D6E1109F9301E0066B855 /* DialogUtilities.h */,
+			);
+			path = includes;
+			sourceTree = "<group>";
+		};
+		6427BDE209F92A0300223601 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E29FC5AE0B0ADACC00614548 /* Info.plist */,
+				6427BDE609F92A0300223601 /* PIUtilities.r */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6427BDE909F92A0300223601 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				E78B5FE30BA215E1003C4D71 /* PIUSuites.cpp */,
+				643D6E1709F9305C0066B855 /* PIUtilities.cpp */,
+				643D6E0E09F92FFB0066B855 /* DialogUtilitiesMac.cpp */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		6427BE2F09F92A2B00223601 /* Photoshop common */ = {
+			isa = PBXGroup;
+			children = (
+				6427BE8809F92A2C00223601 /* photoshop */,
+				6427BEA509F92A2C00223601 /* pica_sp */,
+				6427BEBE09F92A2C00223601 /* resources */,
+			);
+			name = "Photoshop common";
+			path = ../../../../photoshopapi;
+			sourceTree = SOURCE_ROOT;
+		};
+		6427BE8809F92A2C00223601 /* photoshop */ = {
+			isa = PBXGroup;
+			children = (
+				64CC2EF4111CE1F000423B46 /* JSScriptingSuite.h */,
+				647B636F11138F4E0067F135 /* PSIntTypes.h */,
+				64CF8E9C0AA3A6F300120C5A /* ASZStringSuite.h */,
+				64CF8E9D0AA3A6F300120C5A /* ASTypes.h */,
+				64CF8E9E0AA3A6F300120C5A /* ASPragma.h */,
+				64CF8E9F0AA3A6F300120C5A /* ASConfig.h */,
+				6427BE8909F92A2C00223601 /* ASPreInclude.h */,
+				6427BE8A09F92A2C00223601 /* PIAbout.h */,
+				6427BE8B09F92A2C00223601 /* PIAcquire.h */,
+				6427BE8C09F92A2C00223601 /* PIActions.h */,
+				6427BE8D09F92A2C00223601 /* PIActionsPlugin.h */,
+				6427BE8E09F92A2C00223601 /* PIAliasSuite.h */,
+				6427BE8F09F92A2C00223601 /* PIBufferSuite.h */,
+				6427BE9009F92A2C00223601 /* PIChannelPortOperations.h */,
+				6427BE9109F92A2C00223601 /* PIChannelPortsSuite.h */,
+				6427BE9209F92A2C00223601 /* PIColorSpaceSuite.h */,
+				6427BE9309F92A2C00223601 /* PIErrorSuite.h */,
+				6427BE9409F92A2C00223601 /* PIExport.h */,
+				6427BE9509F92A2C00223601 /* PIFilter.h */,
+				6427BE9609F92A2C00223601 /* PIFormat.h */,
+				6427BE9709F92A2C00223601 /* PIGeneral.h */,
+				6427BE9809F92A2C00223601 /* PIGetFileListSuite.h */,
+				6427BE9909F92A2C00223601 /* PIGetPathSuite.h */,
+				6427BE9A09F92A2C00223601 /* PIHandleSuite.h */,
+				E78B5E860BA20D0C003C4D71 /* PIMeasurement.h */,
+				6427BE9B09F92A2C00223601 /* PIPicker.h */,
+				6427BE9C09F92A2C00223601 /* PIProgressSuite.h */,
+				6427BE9D09F92A2C00223601 /* PIProperties.h */,
+				6427BE9E09F92A2C00223601 /* PIResDefines.h */,
+				6427BE9F09F92A2C00223601 /* PISelection.h */,
+				6427BEA009F92A2C00223601 /* PIStringTerminology.h */,
+				6427BEA109F92A2C00223601 /* PITerminology.h */,
+				6427BEA209F92A2C00223601 /* PITypes.h */,
+				6427BEA309F92A2C00223601 /* PIUIHooksSuite.h */,
+				6427BEA409F92A2C00223601 /* PSErrorDefines.h */,
+			);
+			path = photoshop;
+			sourceTree = "<group>";
+		};
+		6427BEA509F92A2C00223601 /* pica_sp */ = {
+			isa = PBXGroup;
+			children = (
+				6427BEA609F92A2C00223601 /* SPAccess.h */,
+				6427BEA709F92A2C00223601 /* SPAdapts.h */,
+				6427BEA809F92A2C00223601 /* SPBasic.h */,
+				6427BEA909F92A2C00223601 /* SPBckDbg.h */,
+				6427BEAA09F92A2C00223601 /* SPBlocks.h */,
+				6427BEAB09F92A2C00223601 /* SPCaches.h */,
+				6427BEAC09F92A2C00223601 /* SPCOM.h */,
+				6427BEAD09F92A2C00223601 /* SPConfig.h */,
+				6427BEAF09F92A2C00223601 /* SPErrorCodes.h */,
+				6427BEB009F92A2C00223601 /* SPErrors.h */,
+				6427BEB109F92A2C00223601 /* SPFiles.h */,
+				6427BEB209F92A2C00223601 /* SPHost.h */,
+				6427BEB309F92A2C00223601 /* SPInterf.h */,
+				6427BEB409F92A2C00223601 /* SPMData.h */,
+				6427BEB509F92A2C00223601 /* SPObject.h */,
+				6427BEB609F92A2C00223601 /* SPPiPL.h */,
+				6427BEB709F92A2C00223601 /* SPPlugs.h */,
+				6427BEB809F92A2C00223601 /* SPProps.h */,
+				6427BEB909F92A2C00223601 /* SPRuntme.h */,
+				6427BEBA09F92A2C00223601 /* SPStrngs.h */,
+				6427BEBB09F92A2C00223601 /* SPSTSPrp.h */,
+				6427BEBC09F92A2C00223601 /* SPSuites.h */,
+				6427BEBD09F92A2C00223601 /* SPTypes.h */,
+			);
+			path = pica_sp;
+			sourceTree = "<group>";
+		};
+		6427BEBE09F92A2C00223601 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6427BEBF09F92A2C00223601 /* PIGeneral.r */,
+				6427BEC009F92A2C00223601 /* PIMI.r */,
+				6427BEC109F92A2C00223601 /* PIPL.r */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		643D6C0B09F92D870066B855 /* Mac OS common */ = {
+			isa = PBXGroup;
+			children = (
+				64A089431700B0B4000FDE3A /* AEInteraction.h */,
+				64A089441700B0B4000FDE3A /* Appearance.h */,
+				64A089451700B0B4000FDE3A /* Appearance.r */,
+				64A089461700B0B4000FDE3A /* CarbonEvents.h */,
+				64A089471700B0B4000FDE3A /* CarbonEvents.r */,
+				64A089481700B0B4000FDE3A /* CarbonEventsCore.h */,
+				64A089491700B0B4000FDE3A /* ControlDefinitions.h */,
+				64A0894A1700B0B4000FDE3A /* ControlDefinitions.r */,
+				64A0894B1700B0B4000FDE3A /* Controls.h */,
+				64A0894C1700B0B4000FDE3A /* Controls.r */,
+				64A0894D1700B0B4000FDE3A /* Dialogs.h */,
+				64A0894E1700B0B4000FDE3A /* Dialogs.r */,
+				64A0894F1700B0B4000FDE3A /* Drag.h */,
+				64A089501700B0B4000FDE3A /* Events.h */,
+				64A089511700B0B4000FDE3A /* HIAccessibility.h */,
+				64A089521700B0B4000FDE3A /* HIArchive.h */,
+				64A089531700B0B4000FDE3A /* HIButtonViews.h */,
+				64A089541700B0B4000FDE3A /* HIButtonViews.r */,
+				64A089551700B0B4000FDE3A /* HIClockView.h */,
+				64A089561700B0B4000FDE3A /* HIClockView.r */,
+				64A089571700B0B4000FDE3A /* HICocoaView.h */,
+				64A089581700B0B4000FDE3A /* HIComboBox.h */,
+				64A089591700B0B4000FDE3A /* HIComboBox.r */,
+				64A0895A1700B0B4000FDE3A /* HIContainerViews.h */,
+				64A0895B1700B0B4000FDE3A /* HIContainerViews.r */,
+				64A0895C1700B0B4000FDE3A /* HIDataBrowser.h */,
+				64A0895D1700B0B4000FDE3A /* HIDataBrowser.r */,
+				64A0895E1700B0B4000FDE3A /* HIDisclosureViews.h */,
+				64A0895F1700B0B4000FDE3A /* HIDisclosureViews.r */,
+				64A089601700B0B4000FDE3A /* HIGeometry.h */,
+				64A089611700B0B4000FDE3A /* HIImageViews.h */,
+				64A089621700B0B4000FDE3A /* HIImageViews.r */,
+				64A089631700B0B4000FDE3A /* HILittleArrows.h */,
+				64A089641700B0B4000FDE3A /* HILittleArrows.r */,
+				64A089651700B0B4000FDE3A /* HIMenuView.h */,
+				64A089661700B0B4000FDE3A /* HIObject.h */,
+				64A089671700B0B4000FDE3A /* HIPopupButton.h */,
+				64A089681700B0B4000FDE3A /* HIPopupButton.r */,
+				64A089691700B0B4000FDE3A /* HIProgressViews.h */,
+				64A0896A1700B0B4000FDE3A /* HIProgressViews.r */,
+				64A0896B1700B0B4000FDE3A /* HIRelevanceBar.h */,
+				64A0896C1700B0B4000FDE3A /* HIScrollView.h */,
+				64A0896D1700B0B4000FDE3A /* HIScrollView.r */,
+				64A0896E1700B0B4000FDE3A /* HISearchField.h */,
+				64A0896F1700B0B4000FDE3A /* HISegmentedView.h */,
+				64A089701700B0B4000FDE3A /* HISegmentedView.r */,
+				64A089711700B0B4000FDE3A /* HISeparator.h */,
+				64A089721700B0B4000FDE3A /* HISeparator.r */,
+				64A089731700B0B4000FDE3A /* HISlider.h */,
+				64A089741700B0B4000FDE3A /* HISlider.r */,
+				64A089751700B0B4000FDE3A /* HITabbedView.h */,
+				64A089761700B0B4000FDE3A /* HITabbedView.r */,
+				64A089771700B0B4000FDE3A /* HITextLengthFilter.h */,
+				64A089781700B0B4000FDE3A /* HITextUtils.h */,
+				64A089791700B0B4000FDE3A /* HITextViews.h */,
+				64A0897A1700B0B4000FDE3A /* HITextViews.r */,
+				64A0897B1700B0B4000FDE3A /* HITheme.h */,
+				64A0897C1700B0B4000FDE3A /* HIToolbar.h */,
+				64A0897D1700B0B4000FDE3A /* HIToolbox.h */,
+				64A0897E1700B0B4000FDE3A /* HIToolbox.r */,
+				64A0897F1700B0B4000FDE3A /* HIToolboxDebugging.h */,
+				64A089801700B0B4000FDE3A /* HIView.h */,
+				64A089811700B0B4000FDE3A /* HIWindowViews.h */,
+				64A089821700B0B4000FDE3A /* IBCarbonRuntime.h */,
+				64A089831700B0B4000FDE3A /* IMKInputSession.h */,
+				64A089841700B0B4000FDE3A /* Keyboards.h */,
+				64A089851700B0B4000FDE3A /* Lists.h */,
+				64A089861700B0B4000FDE3A /* MacApplication.h */,
+				64A089871700B0B4000FDE3A /* MacHelp.h */,
+				64A089881700B0B4000FDE3A /* MacHelp.r */,
+				64A089891700B0B4000FDE3A /* MacTextEditor.h */,
+				64A0898A1700B0B4000FDE3A /* MacWindows.h */,
+				64A0898B1700B0B4000FDE3A /* MacWindows.r */,
+				64A0898C1700B0B4000FDE3A /* Menus.h */,
+				64A0898D1700B0B4000FDE3A /* Menus.r */,
+				64A0898E1700B0B4000FDE3A /* Notification.h */,
+				64A0898F1700B0B4000FDE3A /* Scrap.h */,
+				64A089901700B0B4000FDE3A /* TextEdit.h */,
+				64A089911700B0B4000FDE3A /* TextInputSources.h */,
+				64A089921700B0B4000FDE3A /* TextServices.h */,
+				64A089931700B0B4000FDE3A /* Translation.h */,
+				64A089941700B0B4000FDE3A /* TranslationExtensions.h */,
+				64A089951700B0B4000FDE3A /* TranslationExtensions.r */,
+				64A089961700B0B4000FDE3A /* TSMTE.h */,
+				64A089971700B0B4000FDE3A /* TypeSelect.h */,
+			);
+			name = "Mac OS common";
+			path = /Developer/Headers/FlatCarbon;
+			sourceTree = "<absolute>";
+		};
+		E78B5DCA0BA2088C003C4D71 /* Measurement common */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA62A10BA2235000426C63 /* PIUActionControl.cpp */,
+				E7DA62AA0BA2235000426C63 /* PIUActionControl.h */,
+				E7DA62A90BA2235000426C63 /* PIUActionDescriptor.cpp */,
+				E7DA62A30BA2235000426C63 /* PIUActionDescriptor.h */,
+				E7DA62A40BA2235000426C63 /* PIUActionList.cpp */,
+				E7DA62A70BA2235000426C63 /* PIUActionList.h */,
+				E7DA62A50BA2235000426C63 /* PIUASZString.cpp */,
+				E7DA62A80BA2235000426C63 /* PIUASZString.h */,
+				E7DA62AC0BA2235000426C63 /* PIUExceptions.cpp */,
+				E7DA62AB0BA2235000426C63 /* PIUExceptions.h */,
+				E7FD488E0BAB181F00B571E9 /* PIUMeasurementUtilities.cpp */,
+				E7FD488D0BAB181E00B571E9 /* PIUMeasurementUtilities.h */,
+			);
+			name = "Measurement common";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D01CCC60486CAD60068D4B7 /* MeasurementSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FADC23308B4156C00ABE55E /* Build configuration list for PBXNativeTarget "MeasurementSample" */;
+			buildPhases = (
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+				643D6E9009F937470066B855 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeasurementSample;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = MeasurementSample;
+			productReference = 8D01CCD20486CAD60068D4B7 /* MeasurementSample.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "measurementsample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				english,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* MeasurementSample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* MeasurementSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		643D6E9009F937470066B855 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EF09780BA22A18006A363D /* MeasurementSample.r in Rez */,
+				64A089981700B0B4000FDE3A /* Appearance.r in Rez */,
+				64A089991700B0B4000FDE3A /* CarbonEvents.r in Rez */,
+				64A0899A1700B0B4000FDE3A /* ControlDefinitions.r in Rez */,
+				64A0899B1700B0B4000FDE3A /* Controls.r in Rez */,
+				64A0899C1700B0B4000FDE3A /* Dialogs.r in Rez */,
+				64A0899D1700B0B4000FDE3A /* HIButtonViews.r in Rez */,
+				64A0899E1700B0B4000FDE3A /* HIClockView.r in Rez */,
+				64A0899F1700B0B4000FDE3A /* HIComboBox.r in Rez */,
+				64A089A01700B0B4000FDE3A /* HIContainerViews.r in Rez */,
+				64A089A11700B0B4000FDE3A /* HIDataBrowser.r in Rez */,
+				64A089A21700B0B4000FDE3A /* HIDisclosureViews.r in Rez */,
+				64A089A31700B0B4000FDE3A /* HIImageViews.r in Rez */,
+				64A089A41700B0B4000FDE3A /* HILittleArrows.r in Rez */,
+				64A089A51700B0B4000FDE3A /* HIPopupButton.r in Rez */,
+				64A089A61700B0B4000FDE3A /* HIProgressViews.r in Rez */,
+				64A089A71700B0B4000FDE3A /* HIScrollView.r in Rez */,
+				64A089A81700B0B4000FDE3A /* HISegmentedView.r in Rez */,
+				64A089A91700B0B4000FDE3A /* HISeparator.r in Rez */,
+				64A089AA1700B0B4000FDE3A /* HISlider.r in Rez */,
+				64A089AB1700B0B4000FDE3A /* HITabbedView.r in Rez */,
+				64A089AC1700B0B4000FDE3A /* HITextViews.r in Rez */,
+				64A089AD1700B0B4000FDE3A /* HIToolbox.r in Rez */,
+				64A089AE1700B0B4000FDE3A /* MacHelp.r in Rez */,
+				64A089AF1700B0B4000FDE3A /* MacWindows.r in Rez */,
+				64A089B01700B0B4000FDE3A /* Menus.r in Rez */,
+				64A089B11700B0B4000FDE3A /* TranslationExtensions.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643D6E0F09F92FFB0066B855 /* DialogUtilitiesMac.cpp in Sources */,
+				643D6E1A09F9305D0066B855 /* PIUtilities.cpp in Sources */,
+				E7DA62AD0BA2235000426C63 /* PIUActionControl.cpp in Sources */,
+				E7DA62B20BA2235000426C63 /* PIUActionDescriptor.cpp in Sources */,
+				E7DA62AF0BA2235000426C63 /* PIUActionList.cpp in Sources */,
+				E7DA62B00BA2235000426C63 /* PIUASZString.cpp in Sources */,
+				E7DA62B30BA2235000426C63 /* PIUExceptions.cpp in Sources */,
+				E7FD488F0BAB181F00B571E9 /* PIUMeasurementUtilities.cpp in Sources */,
+				E78B5FB50BA214E6003C4D71 /* MeasurementSamplePlugin.cpp in Sources */,
+				647B64931113937D0067F135 /* PIUSuites.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FADC23408B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = ../../../common/resources/Info.plist;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PLUGIN_TYPE = 8BFM;
+				PRODUCT_NAME = MeasurementSample;
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		4FADC23808B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				EXECUTABLE_EXTENSION = "";
+				GCC_ENABLE_SYMBOL_SEPARATION = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OBJROOT = "$(SYMROOT)../../Objs";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				REZ_PREFIX_FILE = "$(SRCROOT)/../../../common/includes/MachOMacrezXcode.h";
+				SDKROOT = macosx10.7;
+				SYMROOT = ../../../Output/Mac/Debug/;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FADC23308B4156C00ABE55E /* Build configuration list for PBXNativeTarget "MeasurementSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23408B4156C00ABE55E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "measurementsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23808B4156C00ABE55E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
